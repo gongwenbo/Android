@@ -2,6 +2,11 @@
 
 我们 以 cocos2dx游戏 加载 so库为例 来看看。 
 
+参考文章：
+http://blog.csdn.net/luoshengyang/article/details/8923483
+https://m.oschina.net/blog/129696
+https://segmentfault.com/a/1190000004062899
+
 Step 1. 虚拟机 加载 Activity   
 **【cocos2d-x-2.2.3\projects\ProcessResearch\proj.android\src\com\cocos2dx\processresearch.java】**	
 
@@ -90,3 +95,5 @@ Step 2. Runtime.loadLibrary
 	
 	    ......
 	}	
+
+
