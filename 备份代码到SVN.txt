@@ -1,0 +1,28 @@
+在下面路线下：
+F:\cocos2d-x-2.2.3-xtc-0.6\projects
+
+右键->SVN Checkout...
+
+然后在弹出的窗口中选择：
+
+
+checkout Depth[文件路径深度]
+Fully recursinve 	检出内容包括：选中路径下的所有内容
+Immediate children,including folders 检出的内容包括：选中路径的根目录、二级目录的文件和文件夹
+Olny file children 	检出的内容包括：选中路径的根目录、二级目录的文件
+Olny this item 		检出的内容包括：选中路径的根目录搜索
+
+第一次下载checkout要用Fully recursinve  下载到全部内容~
+第一次上传，要用 Olny this item 	 把服务器上的文件夹与自己的文件夹绑定到一起。
+就是 服务器文件夹路径 与 本地文件夹路径 对应起来。
+
+
+
+// 删掉文件夹里的 【.svn】 文件，则这个文件夹 就与SVN 脱离关系了。
+
+
+//======================需要备份的文件=================
+Classes
+proj.android【不包括 .settings,assets,bin,libs,obj】
+proj.win32【不包括 Debug.win32 】
+Resources

@@ -1,0 +1,23 @@
+
+
+CMD 先到 ndk 的安装目录。
+
+比如我这台电脑：路径如下：
+F:\environmentPath\android-ndk-r9c
+
+
+F:\environmentPath\android-ndk-r9c\ndk-stack.exe
+
+
+然后输入命令行：
+
+【ndk-stack.exe所在路径】 -sym 【这里输入要定位的工程里 \proj.android\obj\local\armeabi-v7a】 【log所在路径】
+
+示范如下：
+
+F:\environmentPath\android-ndk-r9c\ndk-stack.exe -sym F:\cocos2d-x-2.2.3-xtc-0.6\projects\entransportation\proj.android\obj\local\armeabi-v7a -dump D:\log.txt
+
+
+
+
+就可以看到 翻译过来的 打印信息了
