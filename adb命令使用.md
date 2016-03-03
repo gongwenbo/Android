@@ -35,16 +35,9 @@
 ## 卸载普通应用
 
 	adb uninstall B×××r.apk
-
-##  实践-删除 data/data 下面的 com.eebbk.bfc.app.bfcbehavior 文件夹 
-
-	adb remount
-	adb shell
-	cd data/data
-	rm -rf com.eebbk.bfc.app.bfcbehavior
 ---
 
-## 实践-安装系统应用APK
+## 01-实践-安装系统应用APK
 
 1. 把 B×××r.apk 放入 F:\ADT\sdk\platform-tools 文件夹。
 2. 在 F:\ADT\sdk\platform-tools 路径下 进入 命令窗口
@@ -53,6 +46,16 @@
 5. 出现了 数据传输的 log 就说明安装成功了。
 
 
+## 02-实践-删除 data/data 下面的 com.eebbk.bfc.app.bfcbehavior 文件夹 
+
+	adb remount
+	adb shell
+	cd data/data
+	rm -rf com.eebbk.bfc.app.bfcbehavior
+
+## 03-重启机子
+
+---
 
 
 
